@@ -1,0 +1,86 @@
+# encoding: utf-8
+# 2025 R1
+SetScriptVersion(Version="25.1.122")
+system1 = GetSystem(Name="SYS")
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.SetFile(FilePath="C:/Users/shasw/AppData/Local/Temp/claude/C--Users-shasw-Documents-MOS-Project/ead69207-fc55-4595-88f5-d233e8b4adea/scratchpad/test1/t=7.5_s=10_r=3.STEP")
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.SendCommand(Command="""
+import math
+R = 2 / 1000.0
+part = GetRootPart()
+def all_bodies():
+    # imported STEP/IGES bodies live in sub-components, not part.Bodies
+    return list(part.GetDescendants[IDesignBody]())
+def is_solid(b):
+    try:
+        return b.Shape.IsClosed and b.Shape.Volume > 1e-15
+    except:
+        return False
+solids = [b for b in all_bodies() if is_solid(b)]
+if not solids:
+    raise Exception(\"No solid body found in geometry\")
+body = max(solids, key=lambda b: b.Shape.Volume)       # main solid
+
+# Top skin = largest cylindrical face
+cyl_faces = [f for f in body.Faces if f.Shape.Geometry.GetType().Name == \"Cylinder\"]
+top = max(cyl_faces, key=lambda f: f.Area)
+
+# Geometric centre of that face (mid-point of its UV box) and outward normal
+box = top.Shape.BoxUV
+uv = PointUV.Create((box.RangeU.Start + box.RangeU.End) / 2.0,
+                    (box.RangeV.Start + box.RangeV.End) / 2.0)
+ev = top.Shape.Geometry.Evaluate(uv)
+c, n = ev.Point, ev.Normal
+if top.Shape.IsReversed:
+    n = -n
+skin_r = top.Shape.Geometry.Radius      # read now: 'top' is invalidated by the split
+before = set(all_bodies())
+
+# Circle on the tangent plane, a little above the surface, extruded down
+# through the skin -> cylinder cutter
+start = c + n.UnitVector * 0.005
+frame = Frame.Create(start, n)
+ViewHelper.SetSketchPlane(Plane.Create(frame))
+SketchCircle.Create(start, R)
+ViewHelper.SetViewMode(InteractionMode.Solid)
+new = [b for b in all_bodies() if b not in before]
+if not new:
+    raise Exception(\"Sketch circle did not create a disk body\")
+disk = new[-1]
+opts = ExtrudeFaceOptions()
+opts.ExtrudeType = ExtrudeType.ForceIndependent
+before = set(all_bodies())
+ExtrudeFaces.Execute(FaceSelection.Create(disk.Faces[0]), -n, 0.05, opts)
+new = [b for b in all_bodies() if b not in before and is_solid(b)]
+cutter = new[-1] if new else disk
+
+# Split the main solid with the cutter's side face -> plug + rest
+side = [f for f in cutter.Faces if f.Shape.Geometry.GetType().Name == \"Cylinder\"][0]
+SplitBody.ByCutter(BodySelection.Create(body), FaceSelection.Create(side))
+Delete.Execute(BodySelection.Create(cutter))
+for b in all_bodies():
+    if not is_solid(b):                       # leftover disk surface
+        Delete.Execute(BodySelection.Create(b))
+
+# Load face = cylindrical face (skin radius) with area ~ pi r^2 nearest the centre
+target = math.pi * R * R
+cands = []
+for b in all_bodies():
+    for f in b.Faces:
+        g = f.Shape.Geometry
+        if g.GetType().Name == \"Cylinder\" and abs(g.Radius - skin_r) < 1e-6 \\
+           and abs(f.Area - target) / target < 0.2:
+            cands.append(f)
+if not cands:
+    raise Exception(\"No load patch face found after split (r = %g m)\" % R)
+load_face = min(cands, key=lambda f: (f.Shape.ProjectPoint(c).Point - c).Magnitude)
+
+res = NamedSelection.Create(FaceSelection.Create(load_face), Selection.Empty())
+res.CreatedNamedSelection.SetName(\"NS_LOAD\")
+
+# Share topology so plug and skin mesh conformally
+part.ShareTopology = ShareTopologyType.Share
+
+f = open(r\"C:\\Users\\shasw\\AppData\\Local\\Temp\\ns_load_area.txt\", \"w\"); f.write(repr(load_face.Area * 1e6)); f.close()   # mm^2
+""")
