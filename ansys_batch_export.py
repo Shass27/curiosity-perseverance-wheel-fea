@@ -14,15 +14,12 @@
 import os, math, traceback
 
 # ========================= EDIT THESE =========================
-PROJECT_FILE = r"C:\Users\shasw\Documents\MOS_Project\Ansys simulation template\Workbench.wbpj"          # template project
+PROJECT_FILE = r"C:\Users\Pabit\Work\mosworkbench.wbpj"          # template project
 INPUT_FOLDERS = [
-    r"C:\Users\shasw\Documents\MOS_Project\CAD_models\Feature 1",
-    r"C:\Users\shasw\Documents\MOS_Project\CAD_models\Feature 2",
-    r"C:\Users\shasw\Documents\MOS_Project\CAD_models\Feature 3",
-    r"C:\Users\shasw\Documents\MOS_Project\CAD_models\Feature 4",
-    r"C:\Users\shasw\Documents\MOS_Project\CAD_models\Feature 5",
+    r"C:\Users\Pabit\Work\cad_folder\Feature_1\Feature 1",
+    r"C:\Users\Pabit\Work\cad_folder\Feature 3",
 ]
-RESULTS_ROOT = r"C:\Users\shasw\Documents\MOS_Project\Simulation results"
+RESULTS_ROOT = r"C:\Users\Pabit\Work\result"
 GEOM_EXTS =(".step", ".stp", ".igs", ".iges", ".x_t", ".x_b", ".scdoc")
 RADII_MM = [2, 4, 6, 8, 10]
 TOTAL_FORCE_N = 300.0
