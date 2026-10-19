@@ -1,0 +1,32 @@
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Ansys run artefacts
+**/Workbench_files/.lock
+**/_ProjectScratch/
+*.wbpj.bak
+*.tmp
+
+# Python / IronPython
+__pycache__/
+*.py[cod]
+*.bak
+
+# Editors and tools
+.vscode/
+.idea/
+*.swp
+.claude/
