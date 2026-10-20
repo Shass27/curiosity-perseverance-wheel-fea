@@ -7,7 +7,7 @@ clear; clc; close all;
 fea_dir    = fullfile(fileparts(mfilename('fullpath')), '..', '..', 'Simulation results', 'Tier 1');
 win_j      = 15;        % junction window: within this distance of either path end
 win_c      = 10;        % centre window: +/- this around mid-path
-sigma_fail = 100;       % failure line
+sigma_fail = 106;       % failure line (MPa)
 P_fea      = 300;       % load the FEA was solved at; Total is scaled linearly to the analytical P
 shade      = 0.6;       % analytical colour = shade * FEA colour (darker, still visible on black)
 
@@ -60,7 +60,7 @@ for i = 1:n
     plot(fea(i).S, fea(i).total, '.-', 'Color', cols(i,:), 'LineWidth', 1.4, 'MarkerSize', 10, ...
         'DisplayName', sprintf('a = %g mm', a_fea(i)));
 end
-yline(sigma_fail, ':', 'Failure (100 MPa)', 'Color', 'w', 'LineWidth', 1.5, 'DisplayName', 'Failure (100 MPa)');
+yline(sigma_fail, ':', sprintf('Failure (%g MPa)', sigma_fail), 'Color', 'w', 'LineWidth', 1.5, 'DisplayName', sprintf('Failure (%g MPa)', sigma_fail));
 xlabel('Path length S [mm]'); ylabel('\sigma_{vm} [MPa]');
 title(sprintf('FEA \\sigma_{vm} along path (linearized Total, scaled %g N \\rightarrow %g N)', P_fea, A.P));
 legend('Location', 'best'); xlim([0 S_end]);
@@ -84,7 +84,7 @@ for i = 1:n
     ca = shade * cols(i,:);                    % analytical: darker shade of this a's FEA colour
     plot(xa, A.SVM(i,:), '-', 'Color', ca, 'LineWidth', 1.6, 'DisplayName', 'analytical');
     plot(xj, [aj(i) aj(i)], 'v', 'Color', ca, 'MarkerFaceColor', ca, 'DisplayName', sprintf('analytical K_t\\sigma (K_t = %.2f)', A.Kt));
-    yline(sigma_fail, ':', 'Failure (100 MPa)', 'Color', 'w', 'LineWidth', 1.5, 'DisplayName', 'Failure (100 MPa)');
+    yline(sigma_fail, ':', sprintf('Failure (%g MPa)', sigma_fail), 'Color', 'w', 'LineWidth', 1.5, 'DisplayName', sprintf('Failure (%g MPa)', sigma_fail));
     xlabel('Path length [mm]'); ylabel('\sigma_{vm} [MPa]');
     title(sprintf('a = %g mm: C_{junction} = %.2f, C_{centre} = %.2f', a_fea(i), C.C_junction(i), C.C_centre(i)));
     legend('Location', 'best'); xlim([0 S_end]);

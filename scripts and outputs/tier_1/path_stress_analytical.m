@@ -17,6 +17,7 @@ E     = 72e3;           % Al 7075-T7351
 nu    = 0.33;
 z_path = 2.0;           % path height above base
 N     = 20001;          % grid points along x
+sigma_fail = 106;      % failure line (MPa)
 
 out_dir = fullfile(fileparts(mfilename('fullpath')), 'output');
 if ~exist(out_dir, 'dir'), mkdir(out_dir); end
@@ -60,7 +61,7 @@ end
 plot(NaN, NaN, 'v', 'Color', [0.6 0.6 0.6], 'MarkerFaceColor', [0.6 0.6 0.6], ...
     'DisplayName', sprintf('junction peak K_t\\sigma (K_t = %.2f), colour = a', Kt));   % one legend entry for all triangles
 xline(x_j, ':', 'Color', [0.6 0.6 0.6], 'HandleVisibility', 'off');   % junction stations, grey for dark background
-yline(100, ':', 'Failure (100 MPa)', 'Color', 'w', 'LineWidth', 1.5, 'DisplayName', 'Failure (100 MPa)');   % failure threshold
+yline(sigma_fail, ':', sprintf('Failure (%g MPa)', sigma_fail), 'Color', 'w', 'LineWidth', 1.5, 'DisplayName', sprintf('Failure (%g MPa)', sigma_fail));   % failure threshold
 xlabel('Path length x [mm]'); ylabel('\sigma_{vm} [MPa]');
 title(sprintf('Analytical \\sigma_{vm} along path (t = %g mm, r = %g mm, K_t = %.2f)', t, r_f, Kt));
 legend('Location', 'best'); xlim([0 L_tot]);
