@@ -11,7 +11,7 @@ Batch FEA of curved R250 panels (rover-wheel features) in Ansys Workbench 2025 R
 - `Simulation results/NOTE.md`: review of `batch_log_2`. Read it before trusting Feature 5 data.
 - `ansys_batch_export.py` + `Ansys simulation template/`: the Workbench journal that produced the data. It's only for reference, and its paths point at a teammate's Windows machine.
 - `scripts and outputs/tier_N/`: MATLAB analysis scripts for the report tiers. Each writes to `scripts and outputs/tier_N/output/`, which has a README listing what each file is. Tier 1 is the analytical path-stress model of the simplified flat-skin model.
-- `latex/main.tex` + `latex/report.pdf`: the Tier 1 report (compiled on Overleaf). Figures are read by relative path from `scripts and outputs/tier_1/output/` and `media/`.
+- `latex/Failure analysis/` (Tier 1 report) and `latex/Surrogate Model/` (Tier 3 report): `main.tex` + `report.pdf` each. Figures are read by relative path (`../../`) from `scripts and outputs/tier_N/output/` and `media/`.
 - `media/`: images used in the report (wheel location, segment CAD, Ansys run screenshot).
 
 ## Results coverage (458 cases)

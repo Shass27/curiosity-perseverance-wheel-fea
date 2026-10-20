@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Curiosity to Perseverance Rover Wheels: Skin Stress FEA and Surrogate Model"
+type: software
+authors:
+  - given-names: Pabitra Kumar
+    family-names: Sahoo
+  - given-names: Ridam
+    family-names: Bagul
+  - given-names: Sibasis
+    family-names: Panda
+  - given-names: Shaswath
+    family-names: S
+repository-code: "https://github.com/Shass27/curiosity-perseverance-wheel-fea"
+license:
+  - MIT
+  - CC-BY-4.0
+date-released: 2026-10-21
+keywords:
+  - finite element analysis
+  - Mars rover wheel
+  - surrogate model
+  - Gaussian process regression
+  - Ansys
+  - MATLAB
