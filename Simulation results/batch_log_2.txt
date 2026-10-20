@@ -1,0 +1,276 @@
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=10_r=1.STEP  r=2mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=10_r=1.STEP  r=4mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=10_r=1.STEP  r=6mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=10_r=1.STEP  r=8mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=10_r=1.STEP  r=10mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=10_r=3.STEP  r=2mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=10_r=3.STEP  r=4mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=10_r=3.STEP  r=6mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=10_r=3.STEP  r=8mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=10_r=3.STEP  r=10mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=10_r=5.STEP  r=2mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=10_r=5.STEP  r=4mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=10_r=5.STEP  r=6mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=10_r=5.STEP  r=8mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=10_r=5.STEP  r=10mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=12_r=1.STEP  r=2mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=12_r=1.STEP  r=4mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=12_r=1.STEP  r=6mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=12_r=1.STEP  r=8mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=12_r=1.STEP  r=10mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=12_r=3.STEP  r=2mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=12_r=3.STEP  r=4mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=12_r=3.STEP  r=6mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=12_r=3.STEP  r=8mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=12_r=3.STEP  r=10mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=12_r=5.STEP  r=2mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=12_r=5.STEP  r=4mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=12_r=5.STEP  r=6mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=12_r=5.STEP  r=8mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=12_r=5.STEP  r=10mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=15_r=1.STEP  r=2mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=15_r=1.STEP  r=4mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=15_r=1.STEP  r=6mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=15_r=1.STEP  r=8mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=15_r=1.STEP  r=10mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=15_r=3.STEP  r=2mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=15_r=3.STEP  r=4mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=15_r=3.STEP  r=6mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=15_r=3.STEP  r=8mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=15_r=3.STEP  r=10mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=15_r=5.STEP  r=2mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=15_r=5.STEP  r=4mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=15_r=5.STEP  r=6mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=15_r=5.STEP  r=8mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=2_s=15_r=5.STEP  r=10mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=10_r=1.STEP  r=2mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=10_r=1.STEP  r=4mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=10_r=1.STEP  r=6mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=10_r=1.STEP  r=8mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=10_r=1.STEP  r=10mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=10_r=3.STEP  r=2mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=10_r=3.STEP  r=4mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=10_r=3.STEP  r=6mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=10_r=3.STEP  r=8mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=10_r=3.STEP  r=10mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=10_r=5.STEP  r=2mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=10_r=5.STEP  r=4mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=10_r=5.STEP  r=6mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=10_r=5.STEP  r=8mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=10_r=5.STEP  r=10mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=12_r=1.STEP  r=2mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=12_r=1.STEP  r=4mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=12_r=1.STEP  r=6mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=12_r=1.STEP  r=8mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=12_r=1.STEP  r=10mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=12_r=3.STEP  r=2mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=12_r=3.STEP  r=4mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=12_r=3.STEP  r=6mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=12_r=3.STEP  r=8mm  (already done)
+SKIPPED C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=12_r=3.STEP  r=10mm  (already done)
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=12_r=5 .STEP  r=2mm  A=21.018 mm2  P=14.2734 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=12_r=5 .STEP  r=4mm  A=87.548 mm2  P=3.4267 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=12_r=5 .STEP  r=6mm  A=176.570 mm2  P=1.6990 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=12_r=5 .STEP  r=8mm  A=288.761 mm2  P=1.0389 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=12_r=5 .STEP  r=10mm  A=425.481 mm2  P=0.7051 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=15_r=1.STEP  r=2mm  A=15.320 mm2  P=19.5826 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=15_r=1.STEP  r=4mm  A=58.665 mm2  P=5.1138 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=15_r=1.STEP  r=6mm  A=126.320 mm2  P=2.3749 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=15_r=1.STEP  r=8mm  A=218.989 mm2  P=1.3699 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=15_r=1.STEP  r=10mm  A=336.761 mm2  P=0.8908 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=15_r=3.STEP  r=2mm  A=18.672 mm2  P=16.0665 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=15_r=3.STEP  r=4mm  A=74.365 mm2  P=4.0342 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=15_r=3.STEP  r=6mm  A=152.113 mm2  P=1.9722 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=15_r=3.STEP  r=8mm  A=254.327 mm2  P=1.1796 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=15_r=3.STEP  r=10mm  A=381.472 mm2  P=0.7864 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=15_r=5.STEP  r=2mm  A=21.018 mm2  P=14.2734 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=15_r=5.STEP  r=4mm  A=87.548 mm2  P=3.4267 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=15_r=5.STEP  r=6mm  A=176.570 mm2  P=1.6990 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=15_r=5.STEP  r=8mm  A=288.761 mm2  P=1.0389 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_4_\t=7.5_s=15_r=5.STEP  r=10mm  A=425.481 mm2  P=0.7051 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=10_r=1.STEP  r=2mm  A=14.621 mm2  P=20.5191 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=10_r=1.STEP  r=4mm  A=54.859 mm2  P=5.4686 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=10_r=1.STEP  r=6mm  A=124.861 mm2  P=2.4027 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=10_r=1.STEP  r=8mm  A=217.981 mm2  P=1.3763 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=10_r=1.STEP  r=10mm  A=335.973 mm2  P=0.8929 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=10_r=3.STEP  r=2mm  A=18.879 mm2  P=15.8906 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=10_r=3.STEP  r=4mm  A=63.700 mm2  P=4.7096 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=10_r=3.STEP  r=6mm  A=147.340 mm2  P=2.0361 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=10_r=3.STEP  r=8mm  A=251.255 mm2  P=1.1940 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=10_r=3.STEP  r=10mm  A=379.137 mm2  P=0.7913 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=10_r=5.STEP  r=2mm  A=22.785 mm2  P=13.1665 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=10_r=5.STEP  r=4mm  A=72.534 mm2  P=4.1360 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=10_r=5.STEP  r=6mm  A=167.837 mm2  P=1.7874 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=10_r=5.STEP  r=8mm  A=283.290 mm2  P=1.0590 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=10_r=5.STEP  r=10mm  A=421.463 mm2  P=0.7118 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=12_r=1.STEP  r=2mm  A=14.621 mm2  P=20.5191 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=12_r=1.STEP  r=4mm  A=54.859 mm2  P=5.4686 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=12_r=1.STEP  r=6mm  A=124.861 mm2  P=2.4027 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=12_r=1.STEP  r=8mm  A=217.981 mm2  P=1.3763 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=12_r=1.STEP  r=10mm  A=335.973 mm2  P=0.8929 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=12_r=3.STEP  r=2mm  A=18.879 mm2  P=15.8906 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=12_r=3.STEP  r=4mm  A=63.700 mm2  P=4.7096 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=12_r=3.STEP  r=6mm  A=147.340 mm2  P=2.0361 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=12_r=3.STEP  r=8mm  A=251.255 mm2  P=1.1940 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=12_r=3.STEP  r=10mm  A=379.137 mm2  P=0.7913 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=12_r=5.STEP  r=2mm  A=22.785 mm2  P=13.1665 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=12_r=5.STEP  r=4mm  A=72.534 mm2  P=4.1360 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=12_r=5.STEP  r=6mm  A=167.837 mm2  P=1.7874 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=12_r=5.STEP  r=8mm  A=283.290 mm2  P=1.0590 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=12_r=5.STEP  r=10mm  A=421.463 mm2  P=0.7118 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=15_r=1.STEP  r=2mm  A=14.621 mm2  P=20.5191 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=15_r=1.STEP  r=4mm  A=54.859 mm2  P=5.4686 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=15_r=1.STEP  r=6mm  A=124.861 mm2  P=2.4027 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=15_r=1.STEP  r=8mm  A=217.981 mm2  P=1.3763 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=15_r=1.STEP  r=10mm  A=335.973 mm2  P=0.8929 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=15_r=3.STEP  r=2mm  A=18.879 mm2  P=15.8906 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=15_r=3.STEP  r=4mm  A=63.700 mm2  P=4.7096 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=15_r=3.STEP  r=6mm  A=147.340 mm2  P=2.0361 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=15_r=3.STEP  r=8mm  A=251.255 mm2  P=1.1940 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=15_r=3.STEP  r=10mm  A=379.137 mm2  P=0.7913 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=15_r=5.STEP  r=2mm  A=22.785 mm2  P=13.1665 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=15_r=5.STEP  r=4mm  A=72.534 mm2  P=4.1360 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=15_r=5.STEP  r=6mm  A=167.837 mm2  P=1.7874 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=15_r=5.STEP  r=8mm  A=283.290 mm2  P=1.0590 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=2_s=15_r=5.STEP  r=10mm  A=421.463 mm2  P=0.7118 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=10_r=1.STEP  r=2mm  A=14.621 mm2  P=20.5187 MPa
+FAILED  C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=10_r=1.STEP  r=4mm  ->  Mechanical script failed:
+Traceback (most recent call last):
+  File "C:\Users\shasw\Desktop\mos_project\mosworkbench_files\dp0\global\MECH\c540e8b8-3a97-40a8-bcd8-86f48e01e39f.py", line 49, in <module>
+    raise Exception("Solve did not finish (status %s)\nAnalysis tree: %s\nMessages:\n%s"
+Exception: Solve did not finish (status SolveRequired)
+Analysis tree: Analysis Settings (ANSYSAnalysisSettings, FullyDefined), Fixed Support (FixedSupport, FullyDefined), Fixed Support 2 (FixedSupport, Suppressed), Force (Force, Suppressed), Pressure (Pressure, FullyDefined), Solution (Solution, NotSolved), Mesh state NotSolved, nodes 36070, Materials: ['Al 7075-T7351', 'Structural Steel'], Body Cut-Extrude3: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[2]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[3]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[4]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[36]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[37]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude31: material='Al 7075-T7351' state=FullyDefined
+Messages:
+Error: The current meshing options and settings cannot generate a mesh. | <Ansys.ACT.Automation.Mechanical.MeshControls.Mesh object at 0x000000000000002B [Ansys.ACT.Automation.Mechanical.MeshControls.Mesh]>
+Warning: One or more objects may have lost some scoping attachments during the geometry update. You can identify these tree objects by activating the Scoping Wizard in the Selection Toolbar, or by filtering the tree using the Scoping option set to Partial. | <Ansys.ACT.Automation.Mechanical.Project object at 0x000000000000002C [Ansys.ACT.Automation.Mechanical.Project]>
+
+Traceback (most recent call last):
+  File "C:\Users\shasw\Desktop\mos_project\ansys_batch_export.py", line 365, in <module>
+    raise Exception("Mechanical script failed:\n" + read_err())
+Exception: Mechanical script failed:
+Traceback (most recent call last):
+  File "C:\Users\shasw\Desktop\mos_project\mosworkbench_files\dp0\global\MECH\c540e8b8-3a97-40a8-bcd8-86f48e01e39f.py", line 49, in <module>
+    raise Exception("Solve did not finish (status %s)\nAnalysis tree: %s\nMessages:\n%s"
+Exception: Solve did not finish (status SolveRequired)
+Analysis tree: Analysis Settings (ANSYSAnalysisSettings, FullyDefined), Fixed Support (FixedSupport, FullyDefined), Fixed Support 2 (FixedSupport, Suppressed), Force (Force, Suppressed), Pressure (Pressure, FullyDefined), Solution (Solution, NotSolved), Mesh state NotSolved, nodes 36070, Materials: ['Al 7075-T7351', 'Structural Steel'], Body Cut-Extrude3: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[2]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[3]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[4]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[36]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[37]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude31: material='Al 7075-T7351' state=FullyDefined
+Messages:
+Error: The current meshing options and settings cannot generate a mesh. | <Ansys.ACT.Automation.Mechanical.MeshControls.Mesh object at 0x000000000000002B [Ansys.ACT.Automation.Mechanical.MeshControls.Mesh]>
+Warning: One or more objects may have lost some scoping attachments during the geometry update. You can identify these tree objects by activating the Scoping Wizard in the Selection Toolbar, or by filtering the tree using the Scoping option set to Partial. | <Ansys.ACT.Automation.Mechanical.Project object at 0x000000000000002C [Ansys.ACT.Automation.Mechanical.Project]>
+
+
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=10_r=1.STEP  r=6mm  A=56.613 mm2  P=5.2991 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=10_r=1.STEP  r=8mm  A=56.613 mm2  P=5.2991 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=10_r=1.STEP  r=10mm  A=56.613 mm2  P=5.2991 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=10_r=3.STEP  r=2mm  A=18.880 mm2  P=15.8900 MPa
+FAILED  C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=10_r=3.STEP  r=4mm  ->  Mechanical script failed:
+Traceback (most recent call last):
+  File "C:\Users\shasw\Desktop\mos_project\mosworkbench_files\dp0\global\MECH\3a0e14a2-fbe1-4f38-8fd7-214cd8183706.py", line 49, in <module>
+    raise Exception("Solve did not finish (status %s)\nAnalysis tree: %s\nMessages:\n%s"
+Exception: Solve did not finish (status SolveRequired)
+Analysis tree: Analysis Settings (ANSYSAnalysisSettings, FullyDefined), Fixed Support (FixedSupport, FullyDefined), Fixed Support 2 (FixedSupport, Suppressed), Force (Force, Suppressed), Pressure (Pressure, FullyDefined), Solution (Solution, NotSolved), Mesh state NotSolved, nodes 20450, Materials: ['Al 7075-T7351', 'Structural Steel'], Body Cut-Extrude3: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[2]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[3]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[4]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[36]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[37]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude31: material='Al 7075-T7351' state=FullyDefined
+Messages:
+Warning: Some boundaries of protected topologies have been defeatured.  Right click on this message and select "Show Problematic Geometry" to see the affected edges. | <Ansys.ACT.Automation.Mechanical.Part object at 0x000000000000002B [Ansys.ACT.Automation.Mechanical.Part]>
+Error: The current meshing options and settings cannot generate a mesh. | <Ansys.ACT.Automation.Mechanical.MeshControls.Mesh object at 0x000000000000002C [Ansys.ACT.Automation.Mechanical.MeshControls.Mesh]>
+Warning: One or more objects may have lost some scoping attachments during the geometry update. You can identify these tree objects by activating the Scoping Wizard in the Selection Toolbar, or by filtering the tree using the Scoping option set to Partial. | <Ansys.ACT.Automation.Mechanical.Project object at 0x000000000000002D [Ansys.ACT.Automation.Mechanical.Project]>
+
+Traceback (most recent call last):
+  File "C:\Users\shasw\Desktop\mos_project\ansys_batch_export.py", line 365, in <module>
+    raise Exception("Mechanical script failed:\n" + read_err())
+Exception: Mechanical script failed:
+Traceback (most recent call last):
+  File "C:\Users\shasw\Desktop\mos_project\mosworkbench_files\dp0\global\MECH\3a0e14a2-fbe1-4f38-8fd7-214cd8183706.py", line 49, in <module>
+    raise Exception("Solve did not finish (status %s)\nAnalysis tree: %s\nMessages:\n%s"
+Exception: Solve did not finish (status SolveRequired)
+Analysis tree: Analysis Settings (ANSYSAnalysisSettings, FullyDefined), Fixed Support (FixedSupport, FullyDefined), Fixed Support 2 (FixedSupport, Suppressed), Force (Force, Suppressed), Pressure (Pressure, FullyDefined), Solution (Solution, NotSolved), Mesh state NotSolved, nodes 20450, Materials: ['Al 7075-T7351', 'Structural Steel'], Body Cut-Extrude3: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[2]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[3]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[4]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[36]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[37]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude31: material='Al 7075-T7351' state=FullyDefined
+Messages:
+Warning: Some boundaries of protected topologies have been defeatured.  Right click on this message and select "Show Problematic Geometry" to see the affected edges. | <Ansys.ACT.Automation.Mechanical.Part object at 0x000000000000002B [Ansys.ACT.Automation.Mechanical.Part]>
+Error: The current meshing options and settings cannot generate a mesh. | <Ansys.ACT.Automation.Mechanical.MeshControls.Mesh object at 0x000000000000002C [Ansys.ACT.Automation.Mechanical.MeshControls.Mesh]>
+Warning: One or more objects may have lost some scoping attachments during the geometry update. You can identify these tree objects by activating the Scoping Wizard in the Selection Toolbar, or by filtering the tree using the Scoping option set to Partial. | <Ansys.ACT.Automation.Mechanical.Project object at 0x000000000000002D [Ansys.ACT.Automation.Mechanical.Project]>
+
+
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=10_r=3.STEP  r=6mm  A=56.613 mm2  P=5.2991 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=10_r=3.STEP  r=8mm  A=56.613 mm2  P=5.2991 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=10_r=3.STEP  r=10mm  A=56.613 mm2  P=5.2991 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=10_r=5.STEP  r=2mm  A=22.786 mm2  P=13.1662 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=10_r=5.STEP  r=4mm  A=72.533 mm2  P=4.1360 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=10_r=5.STEP  r=6mm  A=56.613 mm2  P=5.2991 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=10_r=5.STEP  r=8mm  A=56.613 mm2  P=5.2991 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=10_r=5.STEP  r=10mm  A=56.613 mm2  P=5.2991 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=12_r=1.STEP  r=2mm  A=14.621 mm2  P=20.5187 MPa
+FAILED  C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=12_r=1.STEP  r=4mm  ->  Mechanical script failed:
+Traceback (most recent call last):
+  File "C:\Users\shasw\Desktop\mos_project\mosworkbench_files\dp0\global\MECH\7e9774c8-1bd8-4b70-9b2b-ab587820ce7e.py", line 49, in <module>
+    raise Exception("Solve did not finish (status %s)\nAnalysis tree: %s\nMessages:\n%s"
+Exception: Solve did not finish (status SolveRequired)
+Analysis tree: Analysis Settings (ANSYSAnalysisSettings, FullyDefined), Fixed Support (FixedSupport, FullyDefined), Fixed Support 2 (FixedSupport, Suppressed), Force (Force, Suppressed), Pressure (Pressure, FullyDefined), Solution (Solution, NotSolved), Mesh state NotSolved, nodes 26864, Materials: ['Al 7075-T7351', 'Structural Steel'], Body Cut-Extrude3: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[2]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[3]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[31]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude31: material='Al 7075-T7351' state=FullyDefined
+Messages:
+Error: The current meshing options and settings cannot generate a mesh. | <Ansys.ACT.Automation.Mechanical.MeshControls.Mesh object at 0x000000000000002B [Ansys.ACT.Automation.Mechanical.MeshControls.Mesh]>
+Warning: One or more objects may have lost some scoping attachments during the geometry update. You can identify these tree objects by activating the Scoping Wizard in the Selection Toolbar, or by filtering the tree using the Scoping option set to Partial. | <Ansys.ACT.Automation.Mechanical.Project object at 0x000000000000002C [Ansys.ACT.Automation.Mechanical.Project]>
+
+Traceback (most recent call last):
+  File "C:\Users\shasw\Desktop\mos_project\ansys_batch_export.py", line 365, in <module>
+    raise Exception("Mechanical script failed:\n" + read_err())
+Exception: Mechanical script failed:
+Traceback (most recent call last):
+  File "C:\Users\shasw\Desktop\mos_project\mosworkbench_files\dp0\global\MECH\7e9774c8-1bd8-4b70-9b2b-ab587820ce7e.py", line 49, in <module>
+    raise Exception("Solve did not finish (status %s)\nAnalysis tree: %s\nMessages:\n%s"
+Exception: Solve did not finish (status SolveRequired)
+Analysis tree: Analysis Settings (ANSYSAnalysisSettings, FullyDefined), Fixed Support (FixedSupport, FullyDefined), Fixed Support 2 (FixedSupport, Suppressed), Force (Force, Suppressed), Pressure (Pressure, FullyDefined), Solution (Solution, NotSolved), Mesh state NotSolved, nodes 26864, Materials: ['Al 7075-T7351', 'Structural Steel'], Body Cut-Extrude3: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[2]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[3]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[31]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude31: material='Al 7075-T7351' state=FullyDefined
+Messages:
+Error: The current meshing options and settings cannot generate a mesh. | <Ansys.ACT.Automation.Mechanical.MeshControls.Mesh object at 0x000000000000002B [Ansys.ACT.Automation.Mechanical.MeshControls.Mesh]>
+Warning: One or more objects may have lost some scoping attachments during the geometry update. You can identify these tree objects by activating the Scoping Wizard in the Selection Toolbar, or by filtering the tree using the Scoping option set to Partial. | <Ansys.ACT.Automation.Mechanical.Project object at 0x000000000000002C [Ansys.ACT.Automation.Mechanical.Project]>
+
+
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=12_r=1.STEP  r=6mm  A=429.336 mm2  P=0.6988 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=12_r=1.STEP  r=8mm  A=429.336 mm2  P=0.6988 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=12_r=1.STEP  r=10mm  A=429.336 mm2  P=0.6988 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=12_r=3.STEP  r=2mm  A=18.880 mm2  P=15.8900 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=12_r=3.STEP  r=4mm  A=63.700 mm2  P=4.7096 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=12_r=3.STEP  r=6mm  A=429.336 mm2  P=0.6988 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=12_r=3.STEP  r=8mm  A=429.336 mm2  P=0.6988 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=12_r=3.STEP  r=10mm  A=429.336 mm2  P=0.6988 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=12_r=5.STEP  r=2mm  A=22.786 mm2  P=13.1662 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=12_r=5.STEP  r=4mm  A=72.533 mm2  P=4.1360 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=12_r=5.STEP  r=6mm  A=429.336 mm2  P=0.6988 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=12_r=5.STEP  r=8mm  A=429.336 mm2  P=0.6988 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=12_r=5.STEP  r=10mm  A=429.336 mm2  P=0.6988 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=15_r=1.STEP  r=2mm  A=14.621 mm2  P=20.5187 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=15_r=1.STEP  r=4mm  A=54.861 mm2  P=5.4683 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=15_r=1.STEP  r=6mm  A=429.735 mm2  P=0.6981 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=15_r=1.STEP  r=8mm  A=429.735 mm2  P=0.6981 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=15_r=1.STEP  r=10mm  A=429.735 mm2  P=0.6981 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=15_r=3.STEP  r=2mm  A=18.880 mm2  P=15.8900 MPa
+FAILED  C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=15_r=3.STEP  r=4mm  ->  Mechanical script failed:
+Traceback (most recent call last):
+  File "C:\Users\shasw\Desktop\mos_project\mosworkbench_files\dp0\global\MECH\f44ba1b2-7840-4b59-8cd3-f6f344b3f1f7.py", line 49, in <module>
+    raise Exception("Solve did not finish (status %s)\nAnalysis tree: %s\nMessages:\n%s"
+Exception: Solve did not finish (status SolveRequired)
+Analysis tree: Analysis Settings (ANSYSAnalysisSettings, FullyDefined), Fixed Support (FixedSupport, FullyDefined), Fixed Support 2 (FixedSupport, Suppressed), Force (Force, Suppressed), Pressure (Pressure, FullyDefined), Solution (Solution, NotSolved), Mesh state NotSolved, nodes 16155, Materials: ['Al 7075-T7351', 'Structural Steel'], Body Cut-Extrude3: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[2]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[3]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[25]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude31: material='Al 7075-T7351' state=FullyDefined
+Messages:
+Warning: Some boundaries of protected topologies have been defeatured.  Right click on this message and select "Show Problematic Geometry" to see the affected edges. | <Ansys.ACT.Automation.Mechanical.Part object at 0x000000000000002B [Ansys.ACT.Automation.Mechanical.Part]>
+Error: The current meshing options and settings cannot generate a mesh. | <Ansys.ACT.Automation.Mechanical.MeshControls.Mesh object at 0x000000000000002C [Ansys.ACT.Automation.Mechanical.MeshControls.Mesh]>
+Warning: One or more objects may have lost some scoping attachments during the geometry update. You can identify these tree objects by activating the Scoping Wizard in the Selection Toolbar, or by filtering the tree using the Scoping option set to Partial. | <Ansys.ACT.Automation.Mechanical.Project object at 0x000000000000002D [Ansys.ACT.Automation.Mechanical.Project]>
+
+Traceback (most recent call last):
+  File "C:\Users\shasw\Desktop\mos_project\ansys_batch_export.py", line 365, in <module>
+    raise Exception("Mechanical script failed:\n" + read_err())
+Exception: Mechanical script failed:
+Traceback (most recent call last):
+  File "C:\Users\shasw\Desktop\mos_project\mosworkbench_files\dp0\global\MECH\f44ba1b2-7840-4b59-8cd3-f6f344b3f1f7.py", line 49, in <module>
+    raise Exception("Solve did not finish (status %s)\nAnalysis tree: %s\nMessages:\n%s"
+Exception: Solve did not finish (status SolveRequired)
+Analysis tree: Analysis Settings (ANSYSAnalysisSettings, FullyDefined), Fixed Support (FixedSupport, FullyDefined), Fixed Support 2 (FixedSupport, Suppressed), Force (Force, Suppressed), Pressure (Pressure, FullyDefined), Solution (Solution, NotSolved), Mesh state NotSolved, nodes 16155, Materials: ['Al 7075-T7351', 'Structural Steel'], Body Cut-Extrude3: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[2]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[3]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude2[25]: material='Al 7075-T7351' state=FullyDefined, Body Cut-Extrude31: material='Al 7075-T7351' state=FullyDefined
+Messages:
+Warning: Some boundaries of protected topologies have been defeatured.  Right click on this message and select "Show Problematic Geometry" to see the affected edges. | <Ansys.ACT.Automation.Mechanical.Part object at 0x000000000000002B [Ansys.ACT.Automation.Mechanical.Part]>
+Error: The current meshing options and settings cannot generate a mesh. | <Ansys.ACT.Automation.Mechanical.MeshControls.Mesh object at 0x000000000000002C [Ansys.ACT.Automation.Mechanical.MeshControls.Mesh]>
+Warning: One or more objects may have lost some scoping attachments during the geometry update. You can identify these tree objects by activating the Scoping Wizard in the Selection Toolbar, or by filtering the tree using the Scoping option set to Partial. | <Ansys.ACT.Automation.Mechanical.Project object at 0x000000000000002D [Ansys.ACT.Automation.Mechanical.Project]>
+
+
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=15_r=3.STEP  r=6mm  A=429.735 mm2  P=0.6981 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=15_r=3.STEP  r=8mm  A=429.735 mm2  P=0.6981 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=15_r=3.STEP  r=10mm  A=429.735 mm2  P=0.6981 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=15_r=5.STEP  r=2mm  A=22.786 mm2  P=13.1662 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=15_r=5.STEP  r=4mm  A=72.533 mm2  P=4.1360 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=15_r=5.STEP  r=6mm  A=429.735 mm2  P=0.6981 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=15_r=5.STEP  r=8mm  A=429.735 mm2  P=0.6981 MPa
+OK      C:\Users\shasw\Desktop\mos_project\cad_folder\Feature_5_\t=7.5_s=15_r=5.STEP  r=10mm  A=429.735 mm2  P=0.6981 MPa
