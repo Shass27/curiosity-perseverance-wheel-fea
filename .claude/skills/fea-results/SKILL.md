@@ -8,10 +8,7 @@ description: How to load and interpret the Ansys results in "Simulation results/
 Read the root `CLAUDE.md` sections "Results data format" and "Known data issues" first. This skill adds the code patterns.
 
 ## Run MATLAB
-```bash
-/Applications/MATLAB_R2025b.app/bin/matlab -batch "run('matlab/<script>.m')"
-```
-Run it from the repo root. Scripts live in `matlab/` and write their output to `matlab/output/`. Startup is slow (tens of seconds), so batch the work into one call.
+The user runs scripts in the MATLAB GUI. Don't launch MATLAB from the terminal unless asked. Scripts live in `scripts and outputs/tier_N/` and write to `scripts and outputs/tier_N/output/`.
 
 ## Walk the cases
 ```matlab

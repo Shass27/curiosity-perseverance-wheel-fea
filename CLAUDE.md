@@ -9,7 +9,7 @@ Batch FEA of curved R250 panels (rover-wheel features) in Ansys Workbench 2025 R
 - `Simulation results/batch_log.txt` (85 OK) and `batch_log_2.txt` (106 OK, 4 FAILED, plus SKIPPED lines): one line per case, with `A=` (patch area, mm²) and `P=` (pressure, MPa).
 - `NOTE.md`: review of `batch_log_2`. Read it before trusting Feature 5 data.
 - `ansys_batch_export.py` + `Ansys simulation template/`: the Workbench journal that produced the data. It's only for reference, and its paths point at a teammate's Windows machine.
-- `matlab/`: post-processing scripts, which write their output to `matlab/output/`.
+- `scripts and outputs/tier_N/`: MATLAB analysis scripts for the report tiers. Each writes to `scripts and outputs/tier_N/output/`. Tier 1 is the analytical path-stress model of the simplified flat-skin model.
 
 ## Results coverage (263 cases)
 | Feature | Stems run | Cases |
@@ -33,7 +33,7 @@ Batch FEA of curved R250 panels (rover-wheel features) in Ansys Workbench 2025 R
 - Material: Al 7075-T7351 (E ≈ 72 GPa). The ends of the arc are fixed.
 
 ## MATLAB
-- R2025b, which isn't on PATH. Run `/Applications/MATLAB_R2025b.app/bin/matlab -batch "run('matlab/<script>.m')"` from the repo root.
+- R2025b. **Don't launch MATLAB from the terminal unless the user asks.** The user runs the scripts in the MATLAB GUI and reports back.
 - The `fea-results` skill (`.claude/skills/fea-results/`) covers how to load the dataset.
 
 ## How the Ansys script worked (reference)
