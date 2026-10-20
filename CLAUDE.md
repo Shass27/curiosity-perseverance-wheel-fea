@@ -1,42 +1,49 @@
 # MOS_Project
 
-Batch FEA of curved R250 panels in Ansys Workbench 2025 R1. For every STEP file and every patch radius, a 300 N load is applied on a circular patch at the panel's geometric centre, the model is solved, and the results are exported.
+Batch FEA of curved R250 panels (rover-wheel features) in Ansys Workbench 2025 R1. Each case puts a 300 N load on a circular patch of radius R at the panel's geometric centre, solves it, and exports the results.
+**The Ansys phase is finished, and no more runs are planned.** The current phase is **MATLAB post-processing** of `Simulation results/`.
 
 ## Layout
-- `ansys_batch_export.py`: the Workbench journal that drives everything (IronPython 2.7).
-- `Ansys simulation template/Workbench.wbpj` + `Workbench_files/`: the template project, with system name `SYS` (Static Structural). The script never saves it.
-- `CAD_models/Feature 1..5/*.STEP`: the input geometry, 17 files in total. The names encode the parameters, e.g. `t=7.5_s=10_r=3`.
-- `Simulation results/Feature N/<step file>/r<R>mm/`: the output. Each folder holds `*_summary.xls` (min/max/avg per result plus the applied pressure) and nodal `*_Equivalent_Stress.xls`, `*_Equivalent_Elastic_Strain.xls` and `*_Total_Deformation.xls`.
-- `Simulation results/batch_log.txt`: one OK/FAILED line per case. FAILED lines include the full traceback.
+- `CAD_models/Feature 1..5/*.STEP`: 92 files. Each feature has 18 combinations of t ∈ {2, 7.5}, s ∈ {10, 12, 15} and r ∈ {1, 3, 5}, and Features 4 and 5 also have `t=7.5_s=6_r=3`. The name `Feature 4/t=7.5_s=12_r=5 .STEP` contains a stray space, so trim it when parsing.
+- `Simulation results/Feature N/<stem>/r<R>mm/`: one case per folder, R ∈ {2, 4, 6, 8, 10} (patch radius, not the CAD `r`).
+- `Simulation results/batch_log.txt` (85 OK) and `batch_log_2.txt` (106 OK, 4 FAILED, plus SKIPPED lines): one line per case, with `A=` (patch area, mm²) and `P=` (pressure, MPa).
+- `NOTE.md`: review of `batch_log_2`. Read it before trusting Feature 5 data.
+- `ansys_batch_export.py` + `Ansys simulation template/`: the Workbench journal that produced the data. It's only for reference, and its paths point at a teammate's Windows machine.
+- `matlab/`: post-processing scripts, which write their output to `matlab/output/`.
 
-## Running
-Close Workbench first, or the project lock blocks the run. The command below is for PowerShell, which needs the leading `&`:
-```powershell
-& "C:\Program Files\ANSYS Inc\v251\Framework\bin\Win64\RunWB2.exe" -B -R "C:\Users\shasw\Documents\MOS_Project\ansys_batch_export.py"
-```
-A case takes about 1.5 min, and the full run (85 cases) about 2–2.5 h. If a crash leaves `Ansys simulation template\Workbench_files\.lock` behind and no Ansys process is running, delete the lock.
-The settings are at the top of the script: `INPUT_FOLDERS`, `RADII_MM = [2,4,6,8,10]`, `TOTAL_FORCE_N = 300`, `MATERIAL = "Al 7075-T7351"` and `RESULTS_ROOT`.
-To test, run a copy of the script that points `INPUT_FOLDERS` at a scratch folder with one STEP file and sets `RADII_MM` to `[2]` or `[2, 10]`.
+## Results coverage (263 cases)
+| Feature | Stems run | Cases |
+|---|---|---|
+| 1, 2, 3 | only `t=7.5_s={10,12,15}_r=3` | 15 each |
+| 4 | all 19 | 95 |
+| 5 | all 19 | 93 (`t=7.5_s=10_r=1/r4mm` and `t=7.5_s=12_r=1/r4mm` missing: mesh failure) |
 
-## How the script works
-1. **Geometry, in Discovery** (`SC_SCRIPT`, units in m). SpaceClaim is **not installed**. `Edit(IsSpaceClaimGeometry=True)` silently opens DesignModeler, which then runs the Python as JScript, so the script must use `Edit(IsDiscoveryGeometry=True)`.
-   - Bodies sit in sub-components, so collect them with `part.GetDescendants[IDesignBody]()`, not `part.Bodies`.
-   - Panel centre: the UV mid-point of the largest cylindrical face, which is the unbroken inner skin (R240, or R242.5 on Feature 4). The centre is then moved radially onto the outer skin.
-   - The outer skin is always **R250**. The script raises an error if it isn't.
-   - Cutter: a circle of radius R starting at r = 300 mm, extruded 80 mm inward. `SplitBody.ByCutter` does nothing in Discovery, so the script falls back to `Combine.Intersect`.
-   - `NS_LOAD`: every outward-facing face of the cut plug's top, at the geometric centre regardless of what's there. On Features 4 and 5 a rib sits on the centre, so the loaded area is larger than πR².
-   - `NS_FIX`: the two flat end faces of the arc, which are planes through the skin axis at ±22.5°. Don't pick them by area: the Feature 5 ribs are within 1% of the end faces' area.
-   - Shared topology is turned on. The patch area in mm² is written to `%TEMP%\ns_load_area.txt`.
-2. **Mechanical** (`MECH_SCRIPT`): assigns `MATERIAL` to all bodies, because new geometry arrives with none.
-   - Scopes Pressure to `NS_LOAD` with P = 300 N / area. A Pressure is added if the template has none.
-   - Scopes the first Fixed Support to `NS_FIX`, and suppresses Fixed Support 2 and the template Force.
-   - Solves, checks that the status is Done, and exports.
+## Results data format
+- The `.xls` files are **tab-separated text** with one header row, not Excel. Read them with `'FileType','text','Delimiter','\t'`.
+- The nodal files are `<base>_Equivalent_Stress.xls`, `_Equivalent_Elastic_Strain.xls` and `_Total_Deformation.xls`. Their columns are `Node Number, X (mm), Y (mm), Z (mm), value`.
+- `<base>_summary.xls` has `Result, Minimum, Maximum, Average, Unit` rows, then a blank line, then `Applied pressure (MPa)<TAB>P`. The patch area is 300 / P mm².
+- `<base>` = `<stem>_r<R>mm`.
 
-## Gotchas
-- `SendCommand` swallows script errors in both Discovery and Mechanical. `guarded()` wraps each script in try/except and writes the traceback to `%TEMP%\ns_load_area.txt.err`, and `read_err()` surfaces it.
-- IronPython keeps files locked until they're closed explicitly. Always call `close()`, or the next case's `os.remove` fails with Errno 13.
-- Template supports and loads that were picked directly on geometry break when the geometry is replaced. Use named selections.
-- Keep `{` and `}` out of `SC_SCRIPT` and `MECH_SCRIPT` except for the `.format` placeholders. Use `dict()` instead of `{}`.
+## Known data issues (documented, not auto-corrected)
+- **Two export generations.** Tell them apart by the file count in the folder.
+  - **4 files:** Features 1–3, plus the Feature 4/5 `t=7.5_*_r=3` stems. These include Total Deformation, and strain is in mm/mm.
+  - **3 files:** all other Feature 4/5 cases. There is **no Total Deformation**, and strain is in **microstrain** even though the header says mm/mm (39.1 MPa against 545 gives E ≈ 72 GPa for Al 7075).
+- **Unverified:** 18 Feature 5 folders (t=7.5; s=10, 12, 15; r=1, 5; R=6, 8, 10 mm) report the same area and pressure at every R. See `NOTE.md`.
+- The patch area is **not** πR². The load goes on every outward face of the cut plug, so the features at the centre (ribs on Features 4 and 5) change the area. That's expected.
+- Material: Al 7075-T7351 (E ≈ 72 GPa). The ends of the arc are fixed.
+
+## MATLAB
+- R2025b, which isn't on PATH. Run `/Applications/MATLAB_R2025b.app/bin/matlab -batch "run('matlab/<script>.m')"` from the repo root.
+- The `fea-results` skill (`.claude/skills/fea-results/`) covers how to load the dataset.
+
+## How the Ansys script worked (reference)
+1. Discovery (`SC_SCRIPT`) runs first; SpaceClaim isn't installed.
+   - It finds the panel centre as the UV mid-point of the inner skin, moved out to R250.
+   - A cylinder cutter with radius R is intersected with the body, which leaves a plug.
+   - `NS_LOAD` is every outward face of the plug.
+   - `NS_FIX` is the two flat end faces at ±22.5°.
+2. Mechanical (`MECH_SCRIPT`) assigns the material, sets the pressure P = 300 N / area on `NS_LOAD` and the Fixed Support on `NS_FIX`, then solves and exports.
 
 ## Status
-- 19 Oct 2026: the full run finished with 85/85 OK.
+- 19 Oct 2026: the first full run finished with 85/85 OK.
+- 20 Oct 2026: a continuation run on the updated Feature 4/5 CAD. The Ansys phase is closed, and MATLAB post-processing starts next.

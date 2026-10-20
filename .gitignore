@@ -29,4 +29,4 @@ __pycache__/
 .vscode/
 .idea/
 *.swp
-.claude/
+.claude/settings.local.json
