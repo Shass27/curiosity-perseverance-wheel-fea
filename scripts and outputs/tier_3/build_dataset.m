@@ -31,7 +31,7 @@ for k = 1:n
     st = strtrim(parts{end-1});
     p  = sscanf(st, 't=%f_s=%f_r=%f');
     Rk = sscanf(parts{end}, 'r%dmm');
-    if f == 5 && p(1) == 7.5 && ismember(p(3), [1 5]) && ismember(Rk, [6 8 10]), continue; end  % unverified (NOTE.md)
+    if f == 5 && p(1) == 7.5 && ismember(p(3), [1 5]) && ismember(Rk, [6 8 10]), continue; end  % unverified (Simulation results/NOTE.md)
     keep(k) = true;
     feat(k) = f; stem(k) = st; t(k) = p(1); s(k) = p(2); r(k) = p(3); R(k) = Rk;
 

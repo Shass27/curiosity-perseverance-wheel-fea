@@ -8,7 +8,7 @@ Batch FEA of curved R250 panels (rover-wheel features) in Ansys Workbench 2025 R
 - `Simulation results/Feature N/<stem>/r<R>mm/`: one case per folder, R ∈ {2, 4, 6, 8, 10} (patch radius, not the CAD `r`).
 - `Simulation results/batch_log.txt` (85 OK), `batch_log_2.txt` (106 OK, 4 FAILED, plus SKIPPED lines) and `batch_log_3.txt` (225 OK: the remaining Feature 1–3 stems): one line per case, with `A=` (patch area, mm²) and `P=` (pressure, MPa).
 - `Simulation results/Tier 1/a=<a>.xls`: path data for the simplified flat-skin model, with CAD in `CAD_models/Tier 1/`. These files use a different format; see "Tier 1 data" below.
-- `NOTE.md`: review of `batch_log_2`. Read it before trusting Feature 5 data.
+- `Simulation results/NOTE.md`: review of `batch_log_2`. Read it before trusting Feature 5 data.
 - `ansys_batch_export.py` + `Ansys simulation template/`: the Workbench journal that produced the data. It's only for reference, and its paths point at a teammate's Windows machine.
 - `scripts and outputs/tier_N/`: MATLAB analysis scripts for the report tiers. Each writes to `scripts and outputs/tier_N/output/`, which has a README listing what each file is. Tier 1 is the analytical path-stress model of the simplified flat-skin model.
 - `latex/main.tex` + `latex/report.pdf`: the Tier 1 report (compiled on Overleaf). Figures are read by relative path from `scripts and outputs/tier_1/output/` and `media/`.
@@ -31,7 +31,7 @@ Batch FEA of curved R250 panels (rover-wheel features) in Ansys Workbench 2025 R
 - **Two export generations.** Tell them apart by the file count in the folder.
   - **4 files:** the `t=7.5_s={10,12,15}_r=3` stems of every feature, plus `t=7.5_s=6_r=3` in Features 4 and 5 (the 19 Oct run). These include Total Deformation, and strain is in mm/mm.
   - **3 files:** every other case (from `batch_log_2` and `batch_log_3`). There is **no Total Deformation**, and strain is in **microstrain** even though the header says mm/mm (39.1 MPa against 545 gives E ≈ 72 GPa for Al 7075).
-- **Unverified:** 18 Feature 5 folders (t=7.5; s=10, 12, 15; r=1, 5; R=6, 8, 10 mm) report the same area and pressure at every R. See `NOTE.md`.
+- **Unverified:** 18 Feature 5 folders (t=7.5; s=10, 12, 15; r=1, 5; R=6, 8, 10 mm) report the same area and pressure at every R. See `Simulation results/NOTE.md`.
 - The patch area is **not** πR². The load goes on every outward face of the cut plug, so the features at the centre (ribs on Features 4 and 5) change the area. That's expected.
 - Material: Al 7075-T7351 (E ≈ 72 GPa). The ends of the arc are fixed.
 

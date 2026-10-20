@@ -38,5 +38,5 @@ T = readtable(summaryFile, opts{:}, 'ReadVariableNames', true);
 
 ## Cases to flag
 - Missing: Feature 5 `t=7.5_s=10_r=1/r4mm` and `t=7.5_s=12_r=1/r4mm`.
-- Unverified: Feature 5, t=7.5, s ∈ {10, 12, 15}, r ∈ {1, 5}, R ∈ {6, 8, 10}. These have the same area at every R. See `NOTE.md`.
+- Unverified: Feature 5, t=7.5, s ∈ {10, 12, 15}, r ∈ {1, 5}, R ∈ {6, 8, 10}. These have the same area at every R. See `Simulation results/NOTE.md`.
 - `Simulation results/Tier 1/` has a different format (linearized path data), and the `Feature *` glob above skips it. Its layout is in the root `CLAUDE.md` under "Tier 1 data".
