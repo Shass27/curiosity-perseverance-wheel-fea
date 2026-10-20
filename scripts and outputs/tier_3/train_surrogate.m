@@ -86,7 +86,7 @@ for q = 1:2
         scatter(truth(m,q), pmax(m,q), 18, cols(f,:), 'filled', 'DisplayName', sprintf('Feature %d', f));
     end
     lim = [min([truth(:,q); pmax(:,q)]) max([truth(:,q); pmax(:,q)])];
-    plot(lim, lim, 'k--', 'LineWidth', 1.2, 'DisplayName', 'y = x');
+    plot(lim, lim, 'w--', 'LineWidth', 1.2, 'DisplayName', 'y = x');
     set(gca, 'XScale', 'log', 'YScale', 'log'); axis([lim lim]);
     xlabel(sprintf('FEA max %s [%s]', names{q}, units{q})); ylabel(sprintf('CV-predicted max %s [%s]', names{q}, units{q}));
     title(sprintf('Max %s: %d-fold CV by stem', names{q}, n_fold));
