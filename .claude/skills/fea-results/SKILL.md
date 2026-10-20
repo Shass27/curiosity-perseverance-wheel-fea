@@ -32,11 +32,11 @@ T = readtable(summaryFile, opts{:}, 'ReadVariableNames', true);
 ```
 
 ## Export generations (use the folder's file count)
-- **4 files** (Features 1–3, and the Feature 4/5 `t=7.5_*_r=3` stems): Total Deformation is present and strain is in mm/mm.
-- **3 files** (other Feature 4/5 cases): there's no Total Deformation, and strain is in **microstrain**, so multiply by 1e-6 to get mm/mm. Sanity check: von Mises stress / strain ≈ 72e3 MPa.
+- **4 files** (the `t=7.5_*_r=3` stems of every feature, from the 19 Oct run): Total Deformation is present and strain is in mm/mm.
+- **3 files** (every other case, from `batch_log_2` and `batch_log_3`): there's no Total Deformation, and strain is in **microstrain**, so multiply by 1e-6 to get mm/mm. Sanity check: von Mises stress / strain ≈ 72e3 MPa.
 - The user chose to document these issues only. Don't silently correct or drop data. Report the generation per case, and ask before converting.
 
 ## Cases to flag
 - Missing: Feature 5 `t=7.5_s=10_r=1/r4mm` and `t=7.5_s=12_r=1/r4mm`.
 - Unverified: Feature 5, t=7.5, s ∈ {10, 12, 15}, r ∈ {1, 5}, R ∈ {6, 8, 10}. These have the same area at every R. See `NOTE.md`.
-- Features 1–3 only contain the `t=7.5_*_r=3` stems, so any comparison across t or r there has no data.
+- `Simulation results/Tier 1/` has a different format (linearized path data), and the `Feature *` glob above skips it. Its layout is in the root `CLAUDE.md` under "Tier 1 data".
