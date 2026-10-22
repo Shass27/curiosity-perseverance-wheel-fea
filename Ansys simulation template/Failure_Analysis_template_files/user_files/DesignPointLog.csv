@@ -1,0 +1,12 @@
+﻿# 
+# This file contains the parameter values of the Design Points successfully updated by Ansys Workbench.
+# Project name: Failure_Analysis_template
+# Creation date: 10/23/2026 00:18:41
+# 
+# 10/23/2026 00:18:41
+# The parameters defined in the project are:
+# ,P1 - Pressure Magnitude [MPa],P2 - Mesh Element Size [mm]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P1,P2
+DP 0,2.6526,0.1
