@@ -30,3 +30,7 @@ __pycache__/
 .idea/
 *.swp
 .claude/settings.local.json
+
+# Ansys solver files (regenerated on solve)
+Ansys simulation template/**/MECH/file.rst
+Ansys simulation template/**/MECH/ds.dat
