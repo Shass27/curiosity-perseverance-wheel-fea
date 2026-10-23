@@ -9,8 +9,8 @@
 \usepackage{placeins}
 \usepackage[hidelinks]{hyperref}
 
-% all figures live in the figures/ folder next to this file
-\graphicspath{{figures/}}
+% figures come from media/ and scripts and outputs/tier_1/output/
+\graphicspath{{../../media/}{../../scripts and outputs/tier_1/output/}}
 \setlength{\textfloatsep}{10pt plus 2pt minus 2pt}
 \setlength{\floatsep}{8pt plus 2pt minus 2pt}
 \setlength{\intextsep}{8pt plus 2pt minus 2pt}
@@ -85,7 +85,7 @@ Each of the five load cases was solved on three meshes, labelled by their nomina
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.85\textwidth]{ansys_run_a2.jpg}
+  \includegraphics[width=0.85\textwidth]{fea run ex1 tier1.jpeg}
   \caption{Ansys 2025 R1 run for $a = \SI{2}{mm}$ at \SI{300}{N}: the linearized equivalent stress path on the skin, with the stress plotted along the path and the tabular output.}
   \label{fig:ansys}
 \end{figure}
@@ -167,9 +167,9 @@ On the \SI{10}{mm} mesh the curves are ragged and not ordered physically. The ce
 
 \begin{figure}[htbp]
   \centering
-  \begin{subfigure}[b]{0.45\textwidth}\includegraphics[width=\linewidth]{fea_path_10mm.png}\caption{\SI{10}{mm} mesh}\end{subfigure}\hfill
-  \begin{subfigure}[b]{0.45\textwidth}\includegraphics[width=\linewidth]{fea_path_1mm.png}\caption{\SI{1}{mm} mesh}\end{subfigure}\\[4pt]
-  \begin{subfigure}[b]{0.45\textwidth}\includegraphics[width=\linewidth]{fea_path_0p1mm.png}\caption{\SI{0.1}{mm} mesh}\end{subfigure}
+  \begin{subfigure}[b]{0.45\textwidth}\includegraphics[width=\linewidth]{10mm_meshing/fea_path_stress_vs_x.png}\caption{\SI{10}{mm} mesh}\end{subfigure}\hfill
+  \begin{subfigure}[b]{0.45\textwidth}\includegraphics[width=\linewidth]{1mm_meshing/fea_path_stress_vs_x.png}\caption{\SI{1}{mm} mesh}\end{subfigure}\\[4pt]
+  \begin{subfigure}[b]{0.45\textwidth}\includegraphics[width=\linewidth]{0.1mm_meshing/fea_path_stress_vs_x.png}\caption{\SI{0.1}{mm} mesh}\end{subfigure}
   \caption{FEA Total $\sigma_\text{vm}$ along the path for $a = 2$--\SI{10}{mm}, scaled to \SI{400}{N}, on each mesh.}
   \label{fig:feapaths}
 \end{figure}
@@ -212,9 +212,9 @@ The apparent order of convergence, $p = \ln\!\big[(f_{1}-f_{10})/(f_{0.1}-f_{1})
 
 \begin{figure}[t]
   \centering
-  \begin{subfigure}[b]{0.32\textwidth}\includegraphics[width=\linewidth]{overlay_10mm_a2.png}\caption{\SI{10}{mm} mesh}\end{subfigure}\hfill
-  \begin{subfigure}[b]{0.32\textwidth}\includegraphics[width=\linewidth]{overlay_1mm_a2.png}\caption{\SI{1}{mm} mesh}\end{subfigure}\hfill
-  \begin{subfigure}[b]{0.32\textwidth}\includegraphics[width=\linewidth]{overlay_0p1mm_a2.png}\caption{\SI{0.1}{mm} mesh}\end{subfigure}
+  \begin{subfigure}[b]{0.32\textwidth}\includegraphics[width=\linewidth]{10mm_meshing/overlay_a2.png}\caption{\SI{10}{mm} mesh}\end{subfigure}\hfill
+  \begin{subfigure}[b]{0.32\textwidth}\includegraphics[width=\linewidth]{1mm_meshing/overlay_a2.png}\caption{\SI{1}{mm} mesh}\end{subfigure}\hfill
+  \begin{subfigure}[b]{0.32\textwidth}\includegraphics[width=\linewidth]{0.1mm_meshing/overlay_a2.png}\caption{\SI{0.1}{mm} mesh}\end{subfigure}
   \caption{FEA against analytical $\sigma_\text{vm}$ for $a = \SI{2}{mm}$ on each mesh: as the mesh is refined the FEA curve moves up to its converged shape.}
   \label{fig:overlaya2}
 \end{figure}
@@ -228,7 +228,7 @@ Figure~\ref{fig:peaks} overlays the FEA peaks from the three meshes on the analy
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.8\textwidth]{mesh_peaks_vs_a.png}
+  \includegraphics[width=0.8\textwidth]{fea_vs_analytical_comparison.png}
   \caption{FEA junction (left) and centre (right) peaks against patch radius on the three meshes, with the analytical values (dashed) and the \SI{106}{MPa} fatigue limit (dotted), at \SI{400}{N}.}
   \label{fig:peaks}
 \end{figure}
@@ -271,11 +271,11 @@ Figure~\ref{fig:peaks} overlays the FEA peaks from the three meshes on the analy
 
 \begin{figure}[htbp]
   \centering
-  \begin{subfigure}[b]{0.32\textwidth}\includegraphics[width=\linewidth]{overlay_0p1mm_a2.png}\caption{$a = 2$}\end{subfigure}\hfill
-  \begin{subfigure}[b]{0.32\textwidth}\includegraphics[width=\linewidth]{overlay_0p1mm_a4.png}\caption{$a = 4$}\end{subfigure}\hfill
-  \begin{subfigure}[b]{0.32\textwidth}\includegraphics[width=\linewidth]{overlay_0p1mm_a6.png}\caption{$a = 6$}\end{subfigure}\\[4pt]
-  \begin{subfigure}[b]{0.32\textwidth}\includegraphics[width=\linewidth]{overlay_0p1mm_a8.png}\caption{$a = 8$}\end{subfigure}\hspace{0.02\textwidth}
-  \begin{subfigure}[b]{0.32\textwidth}\includegraphics[width=\linewidth]{overlay_0p1mm_a10.png}\caption{$a = 10$}\end{subfigure}
+  \begin{subfigure}[b]{0.32\textwidth}\includegraphics[width=\linewidth]{0.1mm_meshing/overlay_a2.png}\caption{$a = 2$}\end{subfigure}\hfill
+  \begin{subfigure}[b]{0.32\textwidth}\includegraphics[width=\linewidth]{0.1mm_meshing/overlay_a4.png}\caption{$a = 4$}\end{subfigure}\hfill
+  \begin{subfigure}[b]{0.32\textwidth}\includegraphics[width=\linewidth]{0.1mm_meshing/overlay_a6.png}\caption{$a = 6$}\end{subfigure}\\[4pt]
+  \begin{subfigure}[b]{0.32\textwidth}\includegraphics[width=\linewidth]{0.1mm_meshing/overlay_a8.png}\caption{$a = 8$}\end{subfigure}\hspace{0.02\textwidth}
+  \begin{subfigure}[b]{0.32\textwidth}\includegraphics[width=\linewidth]{0.1mm_meshing/overlay_a10.png}\caption{$a = 10$}\end{subfigure}
   \caption{FEA (markers) and analytical (solid) $\sigma_\text{vm}$ along the path for each patch radius (mm) on the converged \SI{0.1}{mm} mesh, at \SI{400}{N}.}
   \label{fig:overlays}
 \end{figure}

@@ -13,10 +13,10 @@ The thin aluminium skin of NASA's Curiosity rover wheels cracked and punctured o
 
 ## Key findings
 
-- **Curiosity's skin fails in fatigue under sharp rocks.** A rock contact of radius 2 mm at 400 N drives the 2 mm skin above the 106 MPa fatigue limit of Al 7075-T7351.
+- **Curiosity's skin fails in fatigue under sharp rocks.** At 400 N the 2 mm skin exceeds the 106 MPa fatigue limit of Al 7075-T7351 at the skin–grouser junction for every rock size, and directly under the rock for contacts up to 8 mm radius.
 - **The Perseverance changes cut the peak stress about 4.5 times.** The median sharp-rock peak at 300 N falls from 86 MPa (Feature 1, 2 mm skin, Curiosity-like) to 19 MPa (Feature 4, 7.5 mm skin, Perseverance-like). The ribbed grouser pattern alone more than halves it.
 - **The surrogate model is accurate on geometries it has never seen.** Its median peak-stress error is 3.1%, and its 95% confidence band contains the true value in 94% of cases.
-- **A simple beam model is good enough for the panel centre but not the grouser junction.** It matches the FEA centre peak within 12% for sharp contacts, but over-predicts the junction stress three to six times.
+- **A simple beam model is a useful first guide, not a design check.** On the converged mesh it under-predicts the panel-centre peak by 6–32% (worst for sharp rocks) and over-predicts the junction stress about 1.45 times.
 
 <p align="center">
   <img src="media/Surrogate%20GUI.png" width="85%" alt="Surrogate model GUI">
@@ -28,12 +28,17 @@ The thin aluminium skin of NASA's Curiosity rover wheels cracked and punctured o
 ### 1. Failure analysis: `scripts and outputs/tier_1`
 A flat skin segment between two grousers, loaded by a rock on a circular patch, is modelled two ways: as a fixed stepped beam with a Peterson stress-concentration factor, and as an Ansys solid model. The stress along a path on the skin surface is then compared between them.
 
+Each case was solved on 10, 1 and 0.1 mm meshes. The 10 mm mesh is coarser than the 2 mm skin and gives non-physical results. The 1 mm and 0.1 mm meshes give nearly the same peak stress (within 1% at the panel centre and 8% at the skin–grouser junction), so the 0.1 mm mesh is treated as converged and used for all conclusions.
+
 <p align="center">
   <img src="media/analysis_location.png" width="32%" alt="Analysed region of the wheel">
   <img src="media/analysis_segment.png" width="45%" alt="Idealised skin segment">
   <br>
-  <img src="scripts%20and%20outputs/tier_1/output/overlay_a2.png" width="55%" alt="FEA vs analytical stress, a = 2 mm">
-  <br><em>Top: the analysed region and the idealised segment. Bottom: FEA (markers) against the analytical model (line) for a 2 mm contact.</em>
+  <img src="scripts%20and%20outputs/tier_1/output/0.1mm_meshing/overlay_a8.png" width="55%" alt="FEA vs analytical stress, a = 8 mm">
+  <br><em>Top: the analysed region and the idealised segment. Bottom: FEA (markers) against the analytical model (line) for an 8 mm contact on the converged 0.1 mm mesh.</em>
+  <br><br>
+  <img src="scripts%20and%20outputs/tier_1/output/mesh_convergence.png" width="70%" alt="Mesh convergence of the FEA peaks">
+  <br><em>Mesh convergence of the junction (left) and panel-centre (right) peaks against element size, one curve per rock radius.</em>
 </p>
 
 ### 2. Surrogate model: `scripts and outputs/tier_3`
@@ -96,7 +101,7 @@ To rebuild the model from the raw FEA results, run these in order:
 | `tier3_gui.m` | interactive prediction, nearest-case comparison, field export | none |
 
 ### Reproduce the failure analysis
-From `scripts and outputs/tier_1`, run `path_stress_analytical.m`, then `fea_vs_analytical.m`. The figures and CSV tables go to `tier_1/output/`.
+From `scripts and outputs/tier_1`, run `path_stress_analytical.m`, then `fea_vs_analytical.m`. The outputs go to `tier_1/output/`: one `<h>_meshing/` subfolder per mesh (10mm, 1mm, 0.1mm), plus the cross-mesh plots `mesh_convergence.png` and `fea_vs_analytical_comparison.png` at the top level.
 
 ### Build the reports
 Compile `main.tex` from inside its own `latex/<report>/` folder. The figures are read from the repository by relative path, so keep the folder structure (on Overleaf too).
@@ -113,7 +118,7 @@ Compile `main.tex` from inside its own `latex/<report>/` folder. The figures are
 - **Excluded cases.** 18 Feature 5 cases (t = 7.5; r = 1 or 5; R = 6, 8 or 10) report the same patch area at every R, so they are excluded. See [`Simulation results/NOTE.md`](Simulation%20results/NOTE.md).
 - **Patch area.** The area is not πR². The load is applied to every outward face of the cut patch, so ribs at the centre (Features 4 and 5) change it. This is expected.
 - **Material and supports.** Al 7075-T7351 (E ≈ 72 GPa); the arc ends are fixed.
-- **Failure-analysis path files** (`Simulation results/Tier 1/a=<a>.xls`) use a different layout: a 13-line linearisation summary, a blank line, a header, then 49 points along the path. Comparisons use the `Total` column.
+- **Failure-analysis path files** (`Simulation results/Tier 1/<h>_meshing/a=<a>.xls` (h = 10mm, 1mm, 0.1mm)) use a different layout: a 13-line linearisation summary, a blank line, a header, then 49 points along the path. Comparisons use the `Total` column.
 
 ## Team
 
