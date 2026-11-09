@@ -8,6 +8,7 @@
 The thin aluminium skin of NASA's Curiosity rover wheels cracked and punctured on sharp Martian rocks. For Perseverance, the wheel was redesigned with a thicker skin and a different grouser (tread) pattern. This project quantifies both designs with finite-element analysis in Ansys 2025 R1. It then turns 440 solved FEA cases into a machine-learning **surrogate model** that predicts the full stress and strain maps of a wheel panel almost instantly, for any combination of grouser feature, skin thickness, grouser angle, fillet radius, rock size and load.
 
 **Reports:**
+- [Final paper (PDF)](latex/Final%20paper/report.pdf): a 3-page IEEE-style summary of both studies, with links to the detailed reports below.
 - [Failure analysis (PDF)](latex/Failure%20analysis/report.pdf): a hand calculation against FEA on a flat Curiosity skin segment.
 - [Surrogate model (PDF)](latex/Surrogate%20Model/report.pdf): Curiosity vs Perseverance designs, the ML model and the GUI.
 
@@ -64,6 +65,7 @@ Each case was solved on 10, 1 and 0.1 mm meshes. The 10 mm mesh is coarser than 
 │   ├── tier_1/                 failure analysis: analytical model and FEA comparison (MATLAB)
 │   └── tier_3/                 surrogate model: dataset, training, GUI (MATLAB)
 ├── latex/
+│   ├── Final paper/            3-page summary paper, source and PDF
 │   ├── Failure analysis/       report source and PDF
 │   └── Surrogate Model/        report source and PDF
 ├── media/                      images used in the reports and this README
@@ -80,7 +82,7 @@ Every `output/` folder has its own README listing what each file is and which sc
 | Ansys Workbench / Mechanical | 2025 R1 | generating the FEA data (finished; no rerun needed) |
 | MATLAB | R2025b | all analysis scripts and the GUI |
 | Statistics and Machine Learning Toolbox | R2025b | `fitrgp` / `predict` in the surrogate model |
-| LaTeX | Overleaf or `tectonic` | the two reports |
+| LaTeX | Overleaf or `tectonic` | the three reports |
 
 ## Quickstart
 
